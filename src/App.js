@@ -45,7 +45,7 @@ const [isLoading, setIsLoading] = useState(true)
                               pokemon={pokemon}/>) }
         />
       <Route 
-        exact path="/pokemon/:pokemonID" 
+        exact path="/pokemon/:id" 
         render={props => (<InfoPage 
                           {...props} 
                           pokemon={pokemon}/>) }
